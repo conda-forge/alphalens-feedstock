@@ -18,12 +18,15 @@ financial portfolios.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/alphalens-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/alphalens-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/alphalens-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/alphalens-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/alphalens/badges/version.svg)](https://anaconda.org/conda-forge/alphalens)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/alphalens/badges/downloads.svg)](https://anaconda.org/conda-forge/alphalens)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-alphalens-green.svg)](https://anaconda.org/conda-forge/alphalens) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/alphalens.svg)](https://anaconda.org/conda-forge/alphalens) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/alphalens.svg)](https://anaconda.org/conda-forge/alphalens) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/alphalens.svg)](https://anaconda.org/conda-forge/alphalens) |
 
 Installing alphalens
 ====================
