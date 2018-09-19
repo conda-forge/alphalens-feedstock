@@ -1,6 +1,6 @@
 {% set name = "alphalens" %}
-{% set version = "0.3.2" %}
-{% set sha256 = "d07a19b07ef777792e9006b085bd92251f87ade48d35eaa94ea7148a96205e36" %}
+{% set version = "0.3.3" %}
+{% set sha256 = "0f7a4968a9d838a9bde44265f49aca8966c0a9347635656d114b307ea933cb9f" %}
 
 package:
   name: {{ name|lower }}
