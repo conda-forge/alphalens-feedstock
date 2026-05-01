@@ -1,6 +1,6 @@
 {% set name = "alphalens" %}
-{% set version = "0.3.6" %}
-{% set sha256 = "5fdd72a8a6845e9e728389a0388734df3815acf6ef04551ecc09040de468f6a2" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "a58a53d165b8f99bbf6c4a92b5f34f2f21fde9c8ec45c491e5161a99201f45b4" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -39,8 +39,8 @@ about:
   home: http://quantopian.github.io/alphalens/
   license: Apache 2.0
   license_family: Apache
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Performance analysis of predictive (alpha) stock factors'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: Performance analysis of predictive (alpha) stock factors
 
   description: |
     Alphalens is a Python Library for performance analysis of predictive (alpha)
